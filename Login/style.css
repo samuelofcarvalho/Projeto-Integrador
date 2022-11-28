@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(3, 0, 23);
+    user-select: none; /*Não permite que usuário selecione textos da página*/
+}
+
+/*Configurações div container: tamanho da tela do usuário*/
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Configurações flexbox do menu de login*/
+.menu-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%; 
+    height: 30%;
+    min-width: 300px;
+    min-height: 200px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(64, 64, 64);
+    caret-color: transparent; /*Remove o cursor de texto piscando quando input é selecionado*/
+    
+}
+
+/*Configuração títulos LOGIN e SENHA*/
+.menu-login > h1 {
+    font-size: medium;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Configuração entrada de texto de LOGIN e SENHA*/
+.menu-login > input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+    height: 15pt;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+
+}
